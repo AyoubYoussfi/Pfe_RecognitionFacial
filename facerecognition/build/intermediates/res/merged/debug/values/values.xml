@@ -1490,12 +1490,12 @@
         <item name="android:scaleType">center</item>
     </style>
     <style name="ButonDashbord">
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
-        <item name="android:layout_margin">16dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:layout_margin">8dp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:background">#08AE9E</item>
-        <item name="android:textSize">20dp</item>
+        <item name="android:textSize">18dp</item>
     </style>
     <style name="ButtonRadio">
         <item name="android:textSize">20dp</item>

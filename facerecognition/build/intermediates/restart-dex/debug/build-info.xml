@@ -6,7 +6,7 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491774664374"
+    timestamp="1491779964193"
     token="8607621827873368818"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1491772849980"
+        timestamp="1491778197875"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -70,18 +70,26 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491773633137"
+        timestamp="1491778832786"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491779724899"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491774664374"
+        timestamp="1491779964193"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\outputs\apk\facerecognition-debug.apk"

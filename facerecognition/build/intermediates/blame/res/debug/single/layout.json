@@ -64,16 +64,20 @@
         "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\layout\\activity_security_level.xml"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\set_intruder_selfie_dashbord.xml",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\layout\\set_intruder_selfie_dashbord.xml"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -104,12 +108,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_pin.xml",
