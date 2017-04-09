@@ -1,0 +1,7 @@
+#Sun Apr 09 13:10:58 WEST 2017
+base.0=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d2ee9aef9b48aaed493c6f732a301ef792e37d01
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_79d09bb6b96663ec3ce8683d748eb6cdf8a4daef\\classes.dex
+base.1=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_79d09bb6b96663ec3ce8683d748eb6cdf8a4daef
+file.0=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d2ee9aef9b48aaed493c6f732a301ef792e37d01\\classes.dex

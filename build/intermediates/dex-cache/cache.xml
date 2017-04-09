@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\libs\javacpp.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="08f8b1e3fdcc93a1e9076d6279864d6a46982a85">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\2\javacpp_aaebbd687a3cb016f12e9fcb912f5333fa581112\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_b3e7bb1fa9d41f9e75b1ed5fc12d810ca5714f04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\libs\javacv.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1824ed7a180ee32aa57f5632a489c10aad8f1804">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\2\javacv_3d5303aef270dddcefdc4129f192cc4b2a39ffa6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\3421e45bbe7943b02a2438d5020585f65fd5ad4b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87df2218b72f1f6abf0c5000e9ff7d3eef08dbf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="28c7b64523a48691bd935b4dcf3ea3a4237e7936">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d2ee9aef9b48aaed493c6f732a301ef792e37d01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\fd131441f87a05a56b39d080fa81bc0cb40cf69f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_81cb623c68263b173872ee24de9c0f532a3eec07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\fce6f37bad6794a15c6c3d1c2d4d0f7ea7e51b89\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fcdcfe207e7f9b395fe5d9b8a99aa71de2269b28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_82c7f42e92d809c4e3475b61075cd2d428aefdbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\d384b4b4d0c5928893911ed7a2d8021df1b45212\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84651a50dfbe0585d350e16c54f4038d2696ba8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\5c195f8642ad4e8e143d042672f660438ac3ce51\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec47c5c0897e41f731ec53bd18dd4104cbb07776\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\cdb35a8e760a160cb0c766e08812e5273a0aa7bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b65fb8e3a73606ba509d0816e1a4f19b273dc5b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_79d09bb6b96663ec3ce8683d748eb6cdf8a4daef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\54069a8b12aa94edc445c6efcd08c6383967e00c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac107c801521d3e7c019de0376caccb5ebab8f69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\ade5e2211523a75df46293b8cee8b962b91700a9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ae45fbb18a578007d4781906eb8a69cd94bf3f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\c4200eb72e602b92afab739b8cb1b5b566a8041c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b6ab18ad28a360e9ccd92a3051e28348bc753b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Android\.android\build-cache\9d6749240435d5a56ff1d7c334d05a6624dbce07\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7025bf812649a706ce340a862f619e29e1ddb847\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_green.png",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-hdpi\\ic_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_red.png",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-hdpi\\ic_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_yellow.png",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-hdpi\\ic_yellow.png"
+    }
+]
