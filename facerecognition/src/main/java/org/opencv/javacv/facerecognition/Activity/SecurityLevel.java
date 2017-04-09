@@ -11,6 +11,6 @@ public class SecurityLevel extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_security_level);
+        //setContentView(R.layout.activity_security_level);
     }
 }

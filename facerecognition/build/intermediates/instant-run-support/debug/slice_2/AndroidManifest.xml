@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="org.opencv.javacv.facerecognition"
+      package="www.Ayoub_Hamza_FaceRecognition.com"
       android:versionCode="22"
       android:versionName="2.2"
       split="lib_slice_2_apk">

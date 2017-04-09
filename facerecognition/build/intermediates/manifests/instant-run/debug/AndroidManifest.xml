@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.opencv.javacv.facerecognition"
+    package="www.Ayoub_Hamza_FaceRecognition.com"
     android:installLocation="auto"
     android:versionCode="22"
     android:versionName="2.2" >
@@ -43,14 +43,23 @@
     <application
         android:icon="@drawable/lightbulb"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-        <activity android:name="org.opencv.javacv.facerecognition.OpenCVFaceRecognizer" >
+        android:theme="@style/AppTheme" >
+        <activity android:name="org.opencv.javacv.facerecognition.control.OpenCVFaceRecognizer" >
+        </activity>
+        <activity android:name="org.opencv.javacv.facerecognition.SplashScreen.Splash" />
+        <activity android:name="org.opencv.javacv.facerecognition.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.Training" />
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.SetPin" />
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.SecurityLevel" />
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.SetIntruderSelfie" />
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.AboutUs" />
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.RateThisApp" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

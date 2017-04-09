@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.opencv.javacv.facerecognition.MainActivity">
+    tools:context="org.opencv.javacv.facerecognition.MainActivity"
+    android:orientation="vertical"
+    style="@style/Layout">
 
-</android.support.constraint.ConstraintLayout>
+    <!-- for logo -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGris"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Straininig"
+        style="@style/ButonDashbord"
+        android:id="@+id/training"
+        android:onClick="training"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SSitPin"
+        style="@style/ButonDashbord"
+        android:id="@+id/setPin"
+        android:onClick="setPin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SSecurityLevel"
+        style="@style/ButonDashbord"
+        android:id="@+id/securityLevel"
+        android:onClick="securityLevel"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SIntruder_Selfie"
+        style="@style/ButonDashbord"
+        android:id="@+id/setIntruderSelfie"
+        android:onClick="setIntruderSelfie"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGris"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SRate"
+        style="@style/ButonDashbord"
+        android:id="@+id/RateApp"
+        android:onClick="RateApp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SAbout_us"
+        style="@style/ButonDashbord"
+        android:id="@+id/AboutUs"
+        android:onClick="AboutUs"/>
+
+</LinearLayout>

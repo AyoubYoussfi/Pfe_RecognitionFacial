@@ -37,16 +37,17 @@
     <application
         android:icon="@drawable/lightbulb"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        android:theme="@style/AppTheme">
         <activity android:name=".control.OpenCVFaceRecognizer">
+
+        </activity>
+        <activity android:name=".SplashScreen.Splash" />
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreen.Splash" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".Activity.Training" />
         <activity android:name=".Activity.SetPin" />
         <activity android:name=".Activity.SecurityLevel" />

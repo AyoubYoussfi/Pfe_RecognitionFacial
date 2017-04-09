@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OCV Reconocimiento de caras</string>
+    <string name="app_name">Reconocimiento de caras</string>
     <string name="BLANK"></string>
     <string name="SDelete">Borrar</string>
     <string name="SSearch">Buscar</string>

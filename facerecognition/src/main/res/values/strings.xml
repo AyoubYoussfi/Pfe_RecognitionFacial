@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <string name="app_name">OCV Face Recognition</string>
+    
+    <string name="app_name">Face Recognition</string>
     <string name="BLANK"></string>
     <string name="STrain">Train</string>
     <string name="SViewAll">View all faces</string>
@@ -16,4 +18,11 @@
     <string name="SSearching">Searching</string>
     <string name="SFrontCamera">Front Camera</string>
     <string name="SBackCamera">Back Camera</string>
+    <string name="SSitPin">Set Pin</string>
+    <string name="SSecurityLevel">Security Level</string>
+    <string name="SIntruder_Selfie">set Intruder Selfie</string>
+    <string name="SRate">Rate this App</string>
+    <string name="SAbout_us">About Us</string>
+    <string name="DonnezPin">donnez votre Pin</string>
+    <string name="CDonnezPin">Confrmation de Pin</string>
 </resources>

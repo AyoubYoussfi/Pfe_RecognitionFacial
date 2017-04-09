@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="28c7b64523a48691bd935b4dcf3ea3a4237e7936">
+        sha1="bf619d1b4eb6b44452da5b3d3837ddbbba3d0823">
         <dex dex="C:\Users\Android\AndroidStudioProjects\face-recognition01\facerecognition\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d2ee9aef9b48aaed493c6f732a301ef792e37d01\classes.dex" />
     </item>
     <item

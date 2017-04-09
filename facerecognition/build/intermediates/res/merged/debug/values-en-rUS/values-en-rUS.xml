@@ -15,5 +15,5 @@
     <string name="STrain">Train</string>
     <string name="SViewAll">View all faces</string>
     <string name="Straininig">Training...</string>
-    <string name="app_name">OCV Face Recognition</string>
+    <string name="app_name">Face Recognition</string>
 </resources>
