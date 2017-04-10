@@ -11,7 +11,14 @@
                     "endOffset": 77
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 34,
+                        "endOffset": 146
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 132
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 822,
+                        "endColumn": 54,
+                        "endOffset": 872
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 214
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 2,
+                        "startOffset": 552,
+                        "endColumn": 79,
+                        "endOffset": 629
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 257
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 42,
+                        "endOffset": 189
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 65,
+                        "endOffset": 388
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 369
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 45,
+                        "endOffset": 713
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 425
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 766,
+                        "endColumn": 55,
+                        "endOffset": 817
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 465
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 2,
+                        "startOffset": 632,
+                        "endColumn": 37,
+                        "endOffset": 667
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 508
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 194,
+                        "endColumn": 42,
+                        "endOffset": 232
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 556
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 718,
+                        "endColumn": 47,
+                        "endOffset": 761
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 611
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 54,
+                        "endOffset": 496
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 664
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 52,
+                        "endOffset": 441
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 708
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 237,
+                        "endColumn": 43,
+                        "endOffset": 276
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 754
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 45,
+                        "endOffset": 322
+                    }
                 }
             },
             {
@@ -179,7 +277,14 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml"
+                    "file": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 501,
+                        "endColumn": 52,
+                        "endOffset": 549
+                    }
                 }
             },
             {
@@ -191,7 +296,14 @@
                     "endOffset": 924
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 116,
+                        "endOffset": 167
+                    }
                 }
             },
             {
@@ -203,7 +315,14 @@
                     "endOffset": 1032
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 172,
+                        "endColumn": 107,
+                        "endOffset": 275
+                    }
                 }
             },
             {
@@ -215,7 +334,14 @@
                     "endOffset": 1155
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 122,
+                        "endOffset": 398
+                    }
                 }
             },
             {
@@ -227,7 +353,14 @@
                     "endOffset": 1268
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 112,
+                        "endOffset": 511
+                    }
                 }
             },
             {
@@ -239,7 +372,14 @@
                     "endOffset": 1376
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 107,
+                        "endOffset": 619
+                    }
                 }
             },
             {
@@ -251,7 +391,14 @@
                     "endOffset": 1461
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 84,
+                        "endOffset": 704
+                    }
                 }
             },
             {
@@ -263,7 +410,14 @@
                     "endOffset": 1562
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 100,
+                        "endOffset": 805
+                    }
                 }
             },
             {
@@ -275,7 +429,14 @@
                     "endOffset": 1690
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 810,
+                        "endColumn": 127,
+                        "endOffset": 933
+                    }
                 }
             },
             {
@@ -287,7 +448,14 @@
                     "endOffset": 1766
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 938,
+                        "endColumn": 75,
+                        "endOffset": 1009
+                    }
                 }
             },
             {
@@ -299,7 +467,14 @@
                     "endOffset": 1842
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 75,
+                        "endOffset": 1085
+                    }
                 }
             },
             {
@@ -311,7 +486,14 @@
                     "endOffset": 1924
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1090,
+                        "endColumn": 81,
+                        "endOffset": 1167
+                    }
                 }
             },
             {
@@ -323,7 +505,14 @@
                     "endOffset": 2031
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 106,
+                        "endOffset": 1274
+                    }
                 }
             },
             {
@@ -335,7 +524,14 @@
                     "endOffset": 2131
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1279,
+                        "endColumn": 99,
+                        "endOffset": 1374
+                    }
                 }
             },
             {
@@ -347,7 +543,14 @@
                     "endOffset": 2230
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1379,
+                        "endColumn": 98,
+                        "endOffset": 1473
+                    }
                 }
             },
             {
@@ -359,7 +562,14 @@
                     "endOffset": 2338
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1478,
+                        "endColumn": 107,
+                        "endOffset": 1581
+                    }
                 }
             },
             {
@@ -371,7 +581,14 @@
                     "endOffset": 2445
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endColumn": 106,
+                        "endOffset": 1688
+                    }
                 }
             },
             {
@@ -383,7 +600,14 @@
                     "endOffset": 2552
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 106,
+                        "endOffset": 1795
+                    }
                 }
             },
             {
@@ -395,7 +619,14 @@
                     "endOffset": 2674
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1800,
+                        "endColumn": 121,
+                        "endOffset": 1917
+                    }
                 }
             },
             {
@@ -407,7 +638,14 @@
                     "endOffset": 2774
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1922,
+                        "endColumn": 99,
+                        "endOffset": 2017
+                    }
                 }
             },
             {
@@ -438,7 +676,14 @@
                     "endOffset": 2917
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2022,
+                        "endColumn": 81,
+                        "endOffset": 2099
+                    }
                 }
             },
             {
@@ -450,7 +695,14 @@
                     "endOffset": 3018
                 },
                 "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml"
+                    "file": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\values-es\\values-es.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2104,
+                        "endColumn": 100,
+                        "endOffset": 2200
+                    }
                 }
             }
         ]

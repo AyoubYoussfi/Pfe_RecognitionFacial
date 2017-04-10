@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",

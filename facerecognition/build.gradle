@@ -5,8 +5,8 @@ android {
     buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId 'www.Ayoub_Hamza_FaceRecognition.com'
-        minSdkVersion 9
-        targetSdkVersion 9
+        minSdkVersion 14
+        targetSdkVersion 14
     }
     buildTypes {
         release {

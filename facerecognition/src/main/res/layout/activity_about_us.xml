@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.opencv.javacv.facerecognition.Activity.AboutUs">
+    tools:context="org.opencv.javacv.facerecognition.Activity.AboutUs"
+    style="@style/Layout"
+    android:gravity="center" >
 
-</android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ImageView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:layout_below="@+id/ImageView"
+        android:id="@+id/appName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Link"
+        android:layout_below="@+id/appName"
+        android:text="Link Our Site"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

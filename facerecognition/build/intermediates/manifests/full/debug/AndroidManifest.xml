@@ -6,8 +6,8 @@
     android:versionName="2.2" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="9" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -45,14 +45,14 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity android:name="org.opencv.javacv.facerecognition.control.OpenCVFaceRecognizer" >
-        </activity>
-        <activity android:name="org.opencv.javacv.facerecognition.SplashScreen.Splash" />
-        <activity android:name="org.opencv.javacv.facerecognition.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="org.opencv.javacv.facerecognition.SplashScreen.Splash" />
+        <activity android:name="org.opencv.javacv.facerecognition.MainActivity" >
         </activity>
         <activity android:name="org.opencv.javacv.facerecognition.Activity.Training" />
         <activity android:name="org.opencv.javacv.facerecognition.Activity.SetPin" />
