@@ -34,8 +34,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void setPin(View view) {
 
+
+
         LayoutInflater li = LayoutInflater.from(context);
-        View promptsView = li.inflate(R.layout.activity_set_pin, null);
+        View promptsView = li.inflate(R.layout.activity_valide_pin, null);
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
         // set prompts.xml to alertdialog builder

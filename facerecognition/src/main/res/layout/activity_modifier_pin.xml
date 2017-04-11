@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.opencv.javacv.facerecognition.Activity.SetPin"
+    android:layout_centerVertical="true"
+    style="@style/Layout"
+    android:layout_marginTop="80dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oldpin"
+        android:hint="@string/DonnezPin"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#08AE9E"
+        android:layout_below="@+id/oldpin"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newpin"
+        android:hint="@string/DonnezPinNew"
+        android:layout_below="@+id/view"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConfirmationNewPin"
+        android:hint="@string/CDonnezPin"
+        android:layout_below="@+id/newpin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/validationPin"
+        style="@style/ButonDashbord"
+        android:text="Valide"
+        android:layout_below="@id/ConfirmationNewPin"/>
+
+</RelativeLayout>

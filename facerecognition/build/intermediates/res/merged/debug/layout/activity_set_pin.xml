@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.opencv.javacv.facerecognition.Activity.SetPin"
+    android:layout_centerVertical="true"
+    style="@style/Layout"
+    android:layout_marginTop="80dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pin"
+        android:hint="@string/DonnezPin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConfirmationPin"
+        android:hint="@string/CDonnezPin"
+        android:layout_below="@+id/pin"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/validationPin"
+        style="@style/ButonDashbord"
+        android:text="Valide"
+        android:layout_below="@id/ConfirmationPin"/>
+
+</RelativeLayout>
