@@ -20,12 +20,15 @@ public class Test_Ayoub extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test__ayoub);
 
-        imageView = (ImageView) findViewById(R.id.ImageView);
+        imageView = (ImageView) findViewById(R.id.ImageView); // imageview
 
         Bitmap man    = BitmapFactory.decodeResource(getResources(), R.drawable.man);
 
         Bitmap bitmap =ImageUtils.GiveFaceFromImage(man,this);
 
+
+
+        
         imageView.setImageBitmap(bitmap);
 
     }
