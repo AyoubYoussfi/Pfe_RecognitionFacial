@@ -162,24 +162,12 @@ public class ImageUtils {
 
     public static Bitmap GiveFaceFromImage(Bitmap photoFromCamera, Context context) {
 
-        /*
-        convertir oo=new convertir();
-        Intent ii=new Intent(MainActivity.this,cadre.class);
-        ii.putExtra("img",oo.getBytes(photo));
-        startActivity(ii);
-        */
-
         Bitmap RFaceFromImage;
-        Bitmap destination;
 
         final Bitmap image = photoFromCamera;
-        //final Bitmap image = BitmapFactory.decodeResource(getResources(), R.drawable.img2);
-        destination = Bitmap.createBitmap(image.getWidth(), image.getHeight(), Bitmap.Config.RGB_565);
+        Bitmap destination = Bitmap.createBitmap(image.getWidth(), image.getHeight(), Bitmap.Config.RGB_565);
 
         final Canvas canvas = new Canvas(destination);
-
-        float mXRatio=50;
-        float mYRatio=50;
 
         int viewWidth = canvas.getWidth();
         int viewHeight = canvas.getHeight();

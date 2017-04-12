@@ -28,7 +28,7 @@ public class Test_Ayoub extends AppCompatActivity {
 
 
 
-        
+
         imageView.setImageBitmap(bitmap);
 
     }

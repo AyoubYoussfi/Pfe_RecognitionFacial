@@ -45,6 +45,11 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity android:name="org.opencv.javacv.facerecognition.control.OpenCVFaceRecognizer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="org.opencv.javacv.facerecognition.SplashScreen.Splash" />
         <activity android:name="org.opencv.javacv.facerecognition.MainActivity" >
@@ -56,11 +61,6 @@
         <activity android:name="org.opencv.javacv.facerecognition.Activity.AboutUs" />
         <activity android:name="org.opencv.javacv.facerecognition.Activity.RateThisApp" />
         <activity android:name="org.opencv.javacv.facerecognition.Test.Test_Ayoub" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="org.opencv.javacv.facerecognition.Test.Test_Hamza" />
 

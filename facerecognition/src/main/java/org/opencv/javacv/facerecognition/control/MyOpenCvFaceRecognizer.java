@@ -9,8 +9,10 @@ import com.googlecode.javacv.cpp.opencv_core;
 import com.googlecode.javacv.cpp.opencv_imgproc;
 
 import org.opencv.android.Utils;
+import org.opencv.contrib.FaceRecognizer;
 import org.opencv.core.Mat;
 
+import static com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer;
 import static com.googlecode.javacv.cpp.opencv_core.IPL_DEPTH_8U;
 import static com.googlecode.javacv.cpp.opencv_imgproc.CV_BGR2GRAY;
 import static com.googlecode.javacv.cpp.opencv_imgproc.cvCvtColor;
@@ -23,8 +25,8 @@ public class MyOpenCvFaceRecognizer {
     static  final int HEIGHT= 128;
 
     MyOpenCvFaceRecognizer(){
-        //faceRecognizer = createLBPHFaceRecognizer();  // good 0.0  0.0 0.0  ather 30 greate I chose this
-        faceRecognizer =  com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer(2,8,8,8,200); // good ather 32.0 great
+        faceRecognizer = createLBPHFaceRecognizer();  // good 0.0  0.0 0.0  ather 30 greate I chose this
+        //faceRecognizer =  com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer(2,8,8,8,200); // good ather 32.0 great
         //faceRecognizer = com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer(1,8,8,8,100);// ather 68 ou 32 ou 44
         //faceRecognizer = com.googlecode.javacv.cpp.opencv_contrib.createFisherFaceRecognizer(); not good for obama2,3...
         //faceRecognizer = com.googlecode.javacv.cpp.opencv_contrib.createEigenFaceRecognizer(10,123.0); // not good for ather
@@ -139,8 +141,8 @@ public class MyOpenCvFaceRecognizer {
 
     public String TrainAndConfedence(Bitmap bithmap[],Bitmap bitmapTest) {
 
-        opencv_core.MatVector images = new opencv_core.MatVector(3);
-        int[] labels = new int[3];
+        opencv_core.MatVector images = new opencv_core.MatVector(1);
+        int[] labels = new int[1];
 // --->
         int counter = 0;
         int label;
@@ -149,11 +151,11 @@ public class MyOpenCvFaceRecognizer {
         opencv_core.IplImage grayImg;
 
 
-        opencv_core.IplImage imageFiles[] = new opencv_core.IplImage[3];
+        opencv_core.IplImage imageFiles[] = new opencv_core.IplImage[1];
 
         imageFiles[0]= BitmapToIplImage(bithmap[0],WIDTH,HEIGHT);
-        imageFiles[1]= BitmapToIplImage(bithmap[1],WIDTH,HEIGHT);
-        imageFiles[2]= BitmapToIplImage(bithmap[2],WIDTH,HEIGHT);
+        //imageFiles[1]= BitmapToIplImage(bithmap[1],WIDTH,HEIGHT);
+        //imageFiles[2]= BitmapToIplImage(bithmap[2],WIDTH,HEIGHT);
 
 
         for (opencv_core.IplImage image : imageFiles) {
@@ -191,19 +193,61 @@ public class MyOpenCvFaceRecognizer {
     }
 
 
-    public String TrainAndConfidence_3(){
+    public String TrainAndConfedence_2(Bitmap bithmap,Bitmap bitmapTest) {
 
-        opencv_core.MatVector images = new opencv_core.MatVector(3);
-        int[] labels = new int[3];
+        opencv_core.MatVector images = new opencv_core.MatVector(1);
+        int[] labels = new int[1];
 
-        opencv_core.IplImage img = null;
-        opencv_core.IplImage grayImg;
+        opencv_core.IplImage img  = BitmapToIplImage(bithmap,WIDTH,HEIGHT);
 
-        //img = BitmapToIplImage();
+            if (img==null)
+                Log.e("Error","Error cVLoadImage");
 
 
-        return"";
+            images.put(0, img);
+            labels[0] = 1;
+
+            faceRecognizer.train(images, labels);
+
+        // prediction
+        int n[] = new int[1];
+        double p[] = new double[1];
+        opencv_core.IplImage ipl = BitmapToIplImage(bitmapTest,WIDTH,HEIGHT);
+
+        faceRecognizer.predict(ipl, n, p);
+
+        return " label "+n[0]+" confidence : "+p[0];
     }
+
+    public void Train_2(Bitmap bithmap) {
+
+        opencv_core.MatVector images = new opencv_core.MatVector(1);
+        int[] labels = new int[1];
+
+        opencv_core.IplImage img  = BitmapToIplImage(bithmap,WIDTH,HEIGHT);
+
+        if (img==null)
+            Log.e("Error","Error cVLoadImage");
+
+
+        images.put(0, img);
+        labels[0] = 1;
+
+        faceRecognizer.train(images, labels);
+    }
+
+    public String Predict_2(Bitmap bitmapTest){
+
+        int n[] = new int[1];
+        double p[] = new double[1];
+        opencv_core.IplImage ipl = BitmapToIplImage(bitmapTest,WIDTH,HEIGHT);
+
+        faceRecognizer.predict(ipl, n, p);
+
+        return " label "+n[0]+" confidence : "+p[0];
+
+    }
+
 
 
     opencv_core.IplImage MatToIplImage(Mat m, int width, int heigth) {

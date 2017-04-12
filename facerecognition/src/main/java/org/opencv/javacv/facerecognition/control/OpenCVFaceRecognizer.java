@@ -3,17 +3,16 @@ package org.opencv.javacv.facerecognition.control;
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.ColorMatrix;
-import android.graphics.ColorMatrixColorFilter;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import org.opencv.contrib.FaceRecognizer;
 import org.opencv.javacv.facerecognition.R;
 
 public class OpenCVFaceRecognizer extends Activity {
+
+    FaceRecognizer faceRecognizer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,16 +21,147 @@ public class OpenCVFaceRecognizer extends Activity {
 
         MyOpenCvFaceRecognizer myOpenCvFaceRecognizer = new MyOpenCvFaceRecognizer();
 
-        Bitmap obama1    = BitmapFactory.decodeResource(getResources(), R.drawable.obama1);
-        Bitmap trump1    = BitmapFactory.decodeResource(getResources(), R.drawable.trump1);
-        Bitmap mohammed6 = BitmapFactory.decodeResource(getResources(), R.drawable.mohamed6_1);
+        Bitmap adnaneIbrahime    = BitmapFactory.decodeResource(getResources(), R.drawable.adname_ibrahime);
+        Bitmap dakaireNaik    = BitmapFactory.decodeResource(getResources(), R.drawable.dakirenaik);
+        Bitmap Opra    = BitmapFactory.decodeResource(getResources(), R.drawable.opra);
+        Bitmap Mark    = BitmapFactory.decodeResource(getResources(), R.drawable.markzougonbare);
+        Bitmap BellGate    = BitmapFactory.decodeResource(getResources(), R.drawable.bell_gate);
+        Bitmap Mask    = BitmapFactory.decodeResource(getResources(), R.drawable.elon_mask);
 
-        Bitmap justin    = BitmapFactory.decodeResource(getResources(), R.drawable.justin);
-        Bitmap johnshnow = BitmapFactory.decodeResource(getResources(), R.drawable.johnsnow);
-        Bitmap clintone  = BitmapFactory.decodeResource(getResources(), R.drawable.clintone);
-        Bitmap putiine  = BitmapFactory.decodeResource(getResources(), R.drawable.putiin);
-        Bitmap boutaflika  = BitmapFactory.decodeResource(getResources(), R.drawable.boutaflika);
-        Bitmap chinwie  = BitmapFactory.decodeResource(getResources(), R.drawable.chinwi);
+
+
+
+        Bitmap trump1    = BitmapFactory.decodeResource(getResources(), R.drawable.trump1);
+        Bitmap trump2    = BitmapFactory.decodeResource(getResources(), R.drawable.trump2);
+        Bitmap trump3    = BitmapFactory.decodeResource(getResources(), R.drawable.trump3);
+
+
+
+        Bitmap mohammed6_1 = BitmapFactory.decodeResource(getResources(), R.drawable.mohamed6_1);
+        Bitmap mohammed6_2 = BitmapFactory.decodeResource(getResources(), R.drawable.mohamed6_2);
+        Bitmap mohammed6_3 = BitmapFactory.decodeResource(getResources(), R.drawable.mohamed6_3);
+
+
+        Bitmap obama1 = BitmapFactory.decodeResource(getResources(), R.drawable.obama1);
+        Bitmap obama2 = BitmapFactory.decodeResource(getResources(), R.drawable.obama2);
+        Bitmap obama3 = BitmapFactory.decodeResource(getResources(), R.drawable.obama3);
+        Bitmap obama4 = BitmapFactory.decodeResource(getResources(), R.drawable.obama4);
+        Bitmap obama5 = BitmapFactory.decodeResource(getResources(), R.drawable.obama5);
+
+        Bitmap ibrahimFaki_1 = BitmapFactory.decodeResource(getResources(), R.drawable.ibrahime_faiki_1);
+        Bitmap ibrahimFaki_2 = BitmapFactory.decodeResource(getResources(), R.drawable.ibrahime_faiki_2);
+        Bitmap ibrahimFaki_3 = BitmapFactory.decodeResource(getResources(), R.drawable.ibrahime_faiki_3);
+        Bitmap ibrahimFaki_4 = BitmapFactory.decodeResource(getResources(), R.drawable.ibrahime_faiki_4);
+        Bitmap ibrahimFaki_5 = BitmapFactory.decodeResource(getResources(), R.drawable.ibrahime_faiki_5);
+        Bitmap ibrahimFaki_6 = BitmapFactory.decodeResource(getResources(), R.drawable.ibrahime_faiki_6);
+        Bitmap ibrahimFaki_7 = BitmapFactory.decodeResource(getResources(), R.drawable.ibrahime_faiki_7);
+
+
+
+        myOpenCvFaceRecognizer.Train_2(obama1);
+        String w = myOpenCvFaceRecognizer.Predict_2(obama3);
+
+        Toast.makeText(this, "--> "+w, Toast.LENGTH_SHORT).show();
+
+        /*
+
+        String a1 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_2);
+        Toast.makeText(this, " resulat ->  "+a1, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a1 "," resultat  ->  "+a1);
+
+
+        String a2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,adnaneIbrahime);
+        Toast.makeText(this, " resulat ->  "+a2, Toast.LENGTH_SHORT).show();
+        Log.d("test_a2"," resultat  ->  "+a2);
+
+        String a3 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,dakaireNaik);
+        Toast.makeText(this, " resulat ->  "+a3, Toast.LENGTH_SHORT).show();
+        Log.d("test_a3"," resultat  ->  "+a3);
+
+
+        String a4 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,Opra);
+        Toast.makeText(this, " resulat ->  "+a4, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a4);
+
+        String a5 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,Mark);
+        Toast.makeText(this, " resulat ->  "+a5, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a5);
+
+
+        String a6 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,BellGate);
+        Toast.makeText(this, " resulat ->  "+a6, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a6);
+
+
+        String a7 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,Mask);
+        Toast.makeText(this, " resulat ->  "+a7, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a7);
+
+
+        Log.d(" test_a3","------------------- ");
+
+        String a1_2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_1);
+        Toast.makeText(this, " resulat ->  "+a1_2, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a1 "," resultat  ->  "+a1_2);
+
+
+        String a2_2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_2);
+        Toast.makeText(this, " resulat ->  "+a2_2, Toast.LENGTH_SHORT).show();
+        Log.d("test_a2"," resultat  ->  "+a2_2);
+
+        String a3_2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_3);
+        Toast.makeText(this, " resulat ->  "+a3_2, Toast.LENGTH_SHORT).show();
+        Log.d("test_a3"," resultat  ->  "+a3_2);
+
+
+        String a4_2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_4);
+        Toast.makeText(this, " resulat ->  "+a4_2, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a4_2);
+
+        String a5_2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_5);
+        Toast.makeText(this, " resulat ->  "+a5_2, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a5_2);
+
+
+        String a6_2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_6);
+        Toast.makeText(this, " resulat ->  "+a6_2, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a6_2);
+
+
+        String a7_2 =myOpenCvFaceRecognizer.TrainAndConfedence_2(ibrahimFaki_1,ibrahimFaki_7);
+        Toast.makeText(this, " resulat ->  "+a7_2, Toast.LENGTH_SHORT).show();
+        Log.d(" test_a3"," resultat  ->  "+a7_2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //Bitmap trump1    = BitmapFactory.decodeResource(getResources(), R.drawable.trump1);
+        //Bitmap mohammed6 = BitmapFactory.decodeResource(getResources(), R.drawable.mohamed6_1);
+
+        /*
+
+        Bitmap justin     = BitmapFactory.decodeResource(getResources(), R.drawable.justin);
+        Bitmap johnshnow  = BitmapFactory.decodeResource(getResources(), R.drawable.johnsnow);
+        Bitmap clintone   = BitmapFactory.decodeResource(getResources(), R.drawable.clintone);
+        Bitmap putiine    = BitmapFactory.decodeResource(getResources(), R.drawable.putiin);
+        Bitmap boutaflika = BitmapFactory.decodeResource(getResources(), R.drawable.boutaflika);
+        Bitmap chinwie    = BitmapFactory.decodeResource(getResources(), R.drawable.chinwi);
 
         Bitmap obama2 = BitmapFactory.decodeResource(getResources(), R.drawable.obama2);
         Bitmap obama3 = BitmapFactory.decodeResource(getResources(), R.drawable.obama3);
@@ -43,13 +173,15 @@ public class OpenCVFaceRecognizer extends Activity {
 
         Bitmap arrayBitmap [] = new Bitmap[10];
         arrayBitmap[0] =  toGrayscale2(obama1);
-        arrayBitmap[1] =  toGrayscale2(trump1);
-        arrayBitmap[2] =  toGrayscale2(mohammed6);
+
+
+        //arrayBitmap[1] =  toGrayscale2(trump1);
+        //arrayBitmap[2] =  toGrayscale2(mohammed6);
 
         //arrayBitmap[2] =  toGrayscale(johnshnow);
         Bitmap myTestBitmapObama    = toGrayscale2(obama1);
-        Bitmap myTestBitmapTrump    = toGrayscale2(trump1);
-        Bitmap myTestBitmapMohammed = toGrayscale2(mohammed6);
+        //Bitmap myTestBitmapTrump    = toGrayscale2(trump1);
+        //Bitmap myTestBitmapMohammed = toGrayscale2(mohammed6);
 
         Bitmap myTestBitmapObama_2 = toGrayscale2(obama2);
         Bitmap myTestBitmapObama_3 = toGrayscale2(obama3);
@@ -68,17 +200,17 @@ public class OpenCVFaceRecognizer extends Activity {
         //myOpenCvFaceRecognizer.Train2(arrayBitmap);
         //String message  = myOpenCvFaceRecognizer.predict(myTestBitmap);
 
-        String mesaage1 =myOpenCvFaceRecognizer.TrainAndConfedence(arrayBitmap,myTestBitmapObama);
+        String mesaage1 =myOpenCvFaceRecognizer.TrainAndConfedence_2(arrayBitmap[0],myTestBitmapObama);
         Toast.makeText(this, " 1) obama -->  "+mesaage1, Toast.LENGTH_LONG).show(); //0
         Log.e("test_obama","-> "+mesaage1);
 
-        String mesaage2 =myOpenCvFaceRecognizer.TrainAndConfedence(arrayBitmap,myTestBitmapTrump);
-        Toast.makeText(this, " 2) trump -->  "+mesaage2, Toast.LENGTH_LONG).show(); // 1
-        Log.d("test_trump","-> "+mesaage2);
+        //String mesaage2 =myOpenCvFaceRecognizer.TrainAndConfedence(arrayBitmap,myTestBitmapTrump);
+        //Toast.makeText(this, " 2) trump -->  "+mesaage2, Toast.LENGTH_LONG).show(); // 1
+        //Log.d("test_trump","-> "+mesaage2);
 
-        String mesaage3 =myOpenCvFaceRecognizer.TrainAndConfedence(arrayBitmap,myTestBitmapMohammed);
-        Toast.makeText(this, " 3) mohammed-->  "+mesaage3, Toast.LENGTH_LONG).show(); // 2
-        Log.d("test_mohammed6","-> "+mesaage3);
+        //String mesaage3 =myOpenCvFaceRecognizer.TrainAndConfedence(arrayBitmap,myTestBitmapMohammed);
+        //Toast.makeText(this, " 3) mohammed-->  "+mesaage3, Toast.LENGTH_LONG).show(); // 2
+        //Log.d("test_mohammed6","-> "+mesaage3);
 
         // ayoub youssfi
         String mesaage4 =myOpenCvFaceRecognizer.TrainAndConfedence(arrayBitmap,myTestBitmapObama_2);
@@ -183,6 +315,8 @@ public class OpenCVFaceRecognizer extends Activity {
         paint.setColorFilter(f);
         canvas.drawBitmap(bmpOriginal, 0, 0, paint);
         return bmpGrayscale;
+
+        */
     }
 
 }
