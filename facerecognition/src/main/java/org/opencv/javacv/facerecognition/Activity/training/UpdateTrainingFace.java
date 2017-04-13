@@ -1,4 +1,4 @@
-package org.opencv.javacv.facerecognition.Activity;
+package org.opencv.javacv.facerecognition.Activity.training;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,11 +6,11 @@ import android.os.Bundle;
 import org.opencv.javacv.facerecognition.R;
 
 
-public class Training extends AppCompatActivity {
+public class UpdateTrainingFace extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_training);
+        setContentView(R.layout.activity_update_training_face);
     }
 }

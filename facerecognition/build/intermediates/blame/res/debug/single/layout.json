@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modifier_pin.xml",
         "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\layout\\activity_modifier_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\layout\\activity_security_level.xml"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test__ayoub.xml",
@@ -172,6 +172,10 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\notification_template_media.xml"
     },
     {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first_training_face.xml",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\layout\\activity_first_training_face.xml"
+    },
+    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\select_dialog_item_material.xml"
     },
@@ -194,6 +198,10 @@
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_training_face.xml",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\layout\\activity_update_training_face.xml"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",

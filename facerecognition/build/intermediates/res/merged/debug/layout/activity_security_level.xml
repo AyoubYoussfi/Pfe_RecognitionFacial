@@ -25,22 +25,25 @@
         android:layout_below="@+id/textView" >
 
         <RadioButton
+            android:id="@+id/Hight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hight"
             style="@style/ButtonRadio"/>
 
         <RadioButton
+            android:id="@+id/Medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Medium"
             style="@style/ButtonRadio"/>
 
         <RadioButton
+            android:id="@+id/Easy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Easy"
-            style="@style/ButtonRadio"/>
+            style="@style/ButtonRadio" />
 
     </RadioGroup>
 

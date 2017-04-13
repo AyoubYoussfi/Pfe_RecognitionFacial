@@ -22,12 +22,5 @@
         android:hint="@string/CDonnezPin"
         android:layout_below="@+id/pin"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/validationPin"
-        style="@style/ButonDashbord"
-        android:text="Valide"
-        android:layout_below="@id/ConfirmationPin"/>
 
 </RelativeLayout>
