@@ -54,7 +54,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="org.opencv.javacv.facerecognition.Activity.Training" />
         <activity android:name="org.opencv.javacv.facerecognition.Activity.SetPin" />
         <activity android:name="org.opencv.javacv.facerecognition.Activity.SecurityLevel" />
         <activity android:name="org.opencv.javacv.facerecognition.Activity.SetIntruderSelfie" />
@@ -63,6 +62,8 @@
         <activity android:name="org.opencv.javacv.facerecognition.Test.Test_Ayoub" >
         </activity>
         <activity android:name="org.opencv.javacv.facerecognition.Test.Test_Hamza" />
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.training.FirstTrainingFace" />
+        <activity android:name="org.opencv.javacv.facerecognition.Activity.training.UpdateTrainingFace" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

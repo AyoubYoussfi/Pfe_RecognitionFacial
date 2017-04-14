@@ -7,25 +7,7 @@
     tools:context="org.opencv.javacv.facerecognition.Test.Test_Ayoub"
     android:orientation="vertical">
 
-    <RadioGroup
-        android:id="@+id/sex"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
 
-        <RadioButton
-            android:id="@+id/homme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="homme"/>
-
-        <RadioButton
-            android:id="@+id/femme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="femme"/>
-
-
-    </RadioGroup>
 
 </LinearLayout>

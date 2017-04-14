@@ -25,4 +25,5 @@
     <string name="DonnezPin">donnez votre Pin</string>
     <string name="CDonnezPin">Confrmation de Pin</string>
     <string name="DonnezPinNew">Donnez new Pin</string>
+    <string name="STester">Tester</string>
 </resources>

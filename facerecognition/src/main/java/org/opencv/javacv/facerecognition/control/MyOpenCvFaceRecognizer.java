@@ -1,6 +1,10 @@
 package org.opencv.javacv.facerecognition.control;
 
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
+import android.graphics.Paint;
 import android.util.Log;
 
 
@@ -16,17 +20,17 @@ import static com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer;
 import static com.googlecode.javacv.cpp.opencv_core.IPL_DEPTH_8U;
 import static com.googlecode.javacv.cpp.opencv_imgproc.CV_BGR2GRAY;
 import static com.googlecode.javacv.cpp.opencv_imgproc.cvCvtColor;
+import static org.opencv.javacv.facerecognition.Utils.ImageUtils.FromRgbToGrayscale;
 
 public class MyOpenCvFaceRecognizer {
 
-    private int mProb1 = 999;
     opencv_contrib.FaceRecognizer faceRecognizer;
     static  final int WIDTH= 128;
     static  final int HEIGHT= 128;
 
     MyOpenCvFaceRecognizer(){
-        faceRecognizer = createLBPHFaceRecognizer();  // good 0.0  0.0 0.0  ather 30 greate I chose this
-        //faceRecognizer =  com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer(2,8,8,8,200); // good ather 32.0 great
+        //faceRecognizer = createLBPHFaceRecognizer();  // good 0.0  0.0 0.0  ather 30 greate I chose this
+        faceRecognizer =  com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer(2,8,8,8,200); // good ather 32.0 great
         //faceRecognizer = com.googlecode.javacv.cpp.opencv_contrib.createLBPHFaceRecognizer(1,8,8,8,100);// ather 68 ou 32 ou 44
         //faceRecognizer = com.googlecode.javacv.cpp.opencv_contrib.createFisherFaceRecognizer(); not good for obama2,3...
         //faceRecognizer = com.googlecode.javacv.cpp.opencv_contrib.createEigenFaceRecognizer(10,123.0); // not good for ather
@@ -193,30 +197,30 @@ public class MyOpenCvFaceRecognizer {
     }
 
 
-    public String TrainAndConfedence_2(Bitmap bithmap,Bitmap bitmapTest) {
+    public double TrainAndConfedence_2(Bitmap bithmap,Bitmap bitmapTest) {
 
         opencv_core.MatVector images = new opencv_core.MatVector(1);
         int[] labels = new int[1];
 
-        opencv_core.IplImage img  = BitmapToIplImage(bithmap,WIDTH,HEIGHT);
+        opencv_core.IplImage img  = BitmapToIplImage(FromRgbToGrayscale(bithmap) ,WIDTH,HEIGHT);
 
             if (img==null)
                 Log.e("Error","Error cVLoadImage");
 
-
             images.put(0, img);
             labels[0] = 1;
 
-            faceRecognizer.train(images, labels);
+        faceRecognizer.train(images, labels);
 
         // prediction
         int n[] = new int[1];
         double p[] = new double[1];
-        opencv_core.IplImage ipl = BitmapToIplImage(bitmapTest,WIDTH,HEIGHT);
+        opencv_core.IplImage ipl = BitmapToIplImage(FromRgbToGrayscale(bitmapTest) ,WIDTH,HEIGHT);
 
         faceRecognizer.predict(ipl, n, p);
+        //return " label "+n[0]+" confidence : "+p[0];
 
-        return " label "+n[0]+" confidence : "+p[0];
+        return p[0];
     }
 
     public void Train_2(Bitmap bithmap) {
@@ -274,5 +278,25 @@ public class MyOpenCvFaceRecognizer {
 
         return grayImg;
     }
+
+    /*
+    // from Rgb to Gray scale
+    public Bitmap FromRgbToGrayscale(Bitmap bmpOriginal)
+    {
+        int width, height;
+        height = bmpOriginal.getHeight();
+        width = bmpOriginal.getWidth();
+        Bitmap bmpGrayscale = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);
+        Canvas canvas = new Canvas(bmpGrayscale);
+        Paint paint = new Paint();
+        ColorMatrix colorMatrix = new ColorMatrix();
+        colorMatrix.setSaturation(0);
+        ColorMatrixColorFilter f = new ColorMatrixColorFilter(colorMatrix);
+        paint.setColorFilter(f);
+        canvas.drawBitmap(bmpOriginal, 0, 0, paint);
+        return bmpGrayscale;
+    }
+
+    */
 
 }

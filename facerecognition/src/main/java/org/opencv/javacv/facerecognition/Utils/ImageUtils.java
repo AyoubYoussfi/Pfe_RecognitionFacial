@@ -6,6 +6,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.PointF;
@@ -18,6 +20,7 @@ import android.provider.MediaStore;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
 import static android.media.FaceDetector.Face.EULER_Y;
@@ -229,6 +232,36 @@ public class ImageUtils {
         }
         return null;
 
+    }
+
+
+    // convert from bitmap to byte array
+    public static byte[] FromBithMapToBytes(Bitmap bitmap) {
+        ByteArrayOutputStream stream = new ByteArrayOutputStream();
+        bitmap.compress(Bitmap.CompressFormat.PNG, 0, stream);
+        return stream.toByteArray();
+    }
+
+    // convert from byte array to bitmap
+    public static Bitmap FromBytesToBithmap(byte[] image) {
+        return BitmapFactory.decodeByteArray(image, 0, image.length);
+    }
+
+    // from Rgb to Gray scale
+    public static Bitmap FromRgbToGrayscale(Bitmap bmpOriginal)
+    {
+        int width, height;
+        height = bmpOriginal.getHeight();
+        width = bmpOriginal.getWidth();
+        Bitmap bmpGrayscale = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);
+        Canvas canvas = new Canvas(bmpGrayscale);
+        Paint paint = new Paint();
+        ColorMatrix colorMatrix = new ColorMatrix();
+        colorMatrix.setSaturation(0);
+        ColorMatrixColorFilter f = new ColorMatrixColorFilter(colorMatrix);
+        paint.setColorFilter(f);
+        canvas.drawBitmap(bmpOriginal, 0, 0, paint);
+        return bmpGrayscale;
     }
 
 }

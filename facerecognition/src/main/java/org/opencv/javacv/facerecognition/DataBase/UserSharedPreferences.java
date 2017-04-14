@@ -31,7 +31,7 @@ public class UserSharedPreferences {
     }
 
 
-    public static String getPin(){
+    public static String getPin() {
         return ""+sharedPreferences.getString("pin","");
     }
 

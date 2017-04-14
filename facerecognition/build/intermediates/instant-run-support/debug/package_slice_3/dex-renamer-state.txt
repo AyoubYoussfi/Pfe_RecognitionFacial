@@ -1,4 +1,4 @@
-#Wed Apr 12 20:38:39 WEST 2017
+#Fri Apr 14 12:12:51 WEST 2017
 base.0=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3
 renamed.0=classes.dex
 file.0=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3\\classes.dex

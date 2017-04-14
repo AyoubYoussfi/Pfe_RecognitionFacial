@@ -1,4 +1,4 @@
-#Wed Apr 12 22:26:32 WEST 2017
+#Fri Apr 14 12:35:01 WEST 2017
 base.0=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d2ee9aef9b48aaed493c6f732a301ef792e37d01
 renamed.1=classes.dex
 renamed.0=classes2.dex

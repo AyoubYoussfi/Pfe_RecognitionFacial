@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama4.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama4.jpg"
+    },
+    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\dakirenaik.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\dakirenaik.PNG"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
@@ -24,8 +24,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\adname_ibrahime.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\adname_ibrahime.PNG"
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\trump1.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\trump1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\trump5.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\trump5.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
@@ -48,12 +52,20 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibrahime_faiki_5.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\ibrahime_faiki_5.PNG"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\person1.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\person1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama5.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama8.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama8.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
@@ -64,8 +76,8 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibrahime_faiki_3.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\ibrahime_faiki_3.PNG"
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\trump4.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\trump4.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
@@ -76,48 +88,40 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\trump2.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\trump2.jpg"
+    },
+    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibrahime_faiki_6.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\ibrahime_faiki_6.PNG"
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama2.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama2.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bell_gate.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\bell_gate.PNG"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
-        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\elon_mask.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\elon_mask.PNG"
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\markzougonbare.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\markzougonbare.PNG"
-    },
-    {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\opra.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\opra.PNG"
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\trump3.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\trump3.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
@@ -136,8 +140,16 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\adnane_ibrahim1.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\adnane_ibrahim1.jpg"
+    },
+    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bantetrump2.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\bantetrump2.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
@@ -148,12 +160,32 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama7.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama7.jpg"
+    },
+    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\zakir_naik2.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\zakir_naik2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\adnane_ibrahim2.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\adnane_ibrahim2.jpg"
+    },
+    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama1.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\zakir_naik1.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\zakir_naik1.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -172,12 +204,12 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibrahime_faiki_2.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\ibrahime_faiki_2.PNG"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bantetrump.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\bantetrump.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
@@ -208,20 +240,8 @@
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibrahime_faiki_1.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\ibrahime_faiki_1.PNG"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibrahime_faiki_4.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\ibrahime_faiki_4.PNG"
-    },
-    {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibrahime_faiki_7.PNG",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\ibrahime_faiki_7.PNG"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
@@ -250,6 +270,14 @@
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "C:\\Users\\Android\\.android\\build-cache\\d384b4b4d0c5928893911ed7a2d8021df1b45212\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama3.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\obama6.jpg",
+        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-mdpi\\obama6.jpg"
     },
     {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",

@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     final Context context = this;
     UserSharedPreferences userSharedPreferences;
+    Button Training,Pin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +35,14 @@ public class MainActivity extends AppCompatActivity {
 
         userSharedPreferences = new UserSharedPreferences(context);
 
+        Training = (Button) findViewById(R.id.training);
+        Pin = (Button) findViewById(R.id.setPin);
+
+        VerifierEtatPin();
     }
+
+
+
 
     public void training(View view) {
 
@@ -62,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
         final EditText userInputPin             = (EditText) promptsView.findViewById(R.id.pin);
         final EditText userInputConfirmationPin = (EditText) promptsView.findViewById(R.id.ConfirmationPin);
 
+
+
         // set dialog message
         alertDialogBuilder
                 .setCancelable(false)
@@ -70,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog,int id) {
                                 if(userInputPin.getText().toString().equals(userInputConfirmationPin.getText().toString())){
                                     userSharedPreferences.setPin(userInputPin.getText().toString());
+                                    VerifierEtatPin();
                                 }
                                 else {
                                     Toast.makeText(context, "Verifier votre pin", Toast.LENGTH_SHORT).show();
@@ -254,4 +266,25 @@ public class MainActivity extends AppCompatActivity {
     public void AboutUs(View view) {
         startActivity(new Intent(MainActivity.this, AboutUs.class));
     }
+
+    // for change text of pin from set pin to Update Pin
+    public void VerifierEtatPin(){
+        if(userSharedPreferences.getPin().toString().equals("")){
+            Pin.setText("Set Pin");
+        }
+        else{
+            Pin.setText("Up Date Pin");
+        }
+    }
+
+    // for change Text of Button Training to up date Training
+    public void VerifierEtatTraining() {
+        if(userSharedPreferences.getTraining()){
+            Training.setText("Up Date Training");
+        }
+        else{
+            Training.setText("Training");
+        }
+    }
+
 }

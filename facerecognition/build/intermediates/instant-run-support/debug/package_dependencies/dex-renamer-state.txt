@@ -1,4 +1,4 @@
-#Mon Apr 10 13:52:40 WEST 2017
+#Thu Apr 13 14:18:28 WEST 2017
 file.2=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_ec47c5c0897e41f731ec53bd18dd4104cbb07776\\classes.dex
 base.2=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_ec47c5c0897e41f731ec53bd18dd4104cbb07776
 file.1=C\:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_b3e7bb1fa9d41f9e75b1ed5fc12d810ca5714f04\\classes.dex

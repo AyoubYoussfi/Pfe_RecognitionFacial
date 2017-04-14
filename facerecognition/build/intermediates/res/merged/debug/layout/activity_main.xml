@@ -32,6 +32,7 @@
         android:id="@+id/training"
         android:onClick="training"/>
 
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

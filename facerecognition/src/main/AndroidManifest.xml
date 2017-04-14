@@ -18,18 +18,10 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.autofocus"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.front"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.front.autofocus"
-        android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -38,12 +30,13 @@
         android:icon="@drawable/lightbulb"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name=".control.OpenCVFaceRecognizer" />
+        <activity android:name=".control.OpenCVFaceRecognizer" >
+
+        </activity>
         <activity android:name=".SplashScreen.Splash" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -52,7 +45,9 @@
         <activity android:name=".Activity.SetIntruderSelfie" />
         <activity android:name=".Activity.AboutUs" />
         <activity android:name=".Activity.RateThisApp" />
-        <activity android:name=".Test.Test_Ayoub" />
+        <activity android:name=".Test.Test_Ayoub" >
+
+        </activity>
         <activity android:name=".Test.Test_Hamza" />
         <activity android:name=".Activity.training.FirstTrainingFace" />
         <activity android:name=".Activity.training.UpdateTrainingFace"></activity>

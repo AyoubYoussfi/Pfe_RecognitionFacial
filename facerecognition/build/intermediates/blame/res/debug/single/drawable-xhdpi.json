@@ -16,10 +16,6 @@
         "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-xhdpi\\ic_red.png"
     },
     {
-        "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_info.png",
-        "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-xhdpi\\ic_action_info.png"
-    },
-    {
         "merged": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_yellow.png",
         "source": "C:\\Users\\Android\\AndroidStudioProjects\\face-recognition01\\facerecognition\\src\\main\\res\\drawable-xhdpi\\ic_yellow.png"
     }
